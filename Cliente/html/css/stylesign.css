@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(181, 83, 255);
+    background: radial-gradient(circle, rgb(128, 183, 255) 0%, rgb(0, 68, 146) 100%);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contenedorlog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadrolog {
+    background-color: white;
+    padding: 20px;
+    width: 40vh;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: -0.5px -0.5px 4px 4px rgba(255, 255, 255, 0.3);
+}
+
+.recuadrolog .field {
+    border-radius: 15px;
+    border: 1px solid #c5c5c5;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: calc(100% - 30px); /* Ajuste para el padding */
+    box-sizing: border-box;
+}
+
+.botonn{
+    width: 100%;
+}
+
+.btnlog {
+    border-radius: 15px;
+    background-color: #23a7ff;
+    color: #fff;
+    width: 90%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnlog:hover {
+    background-color: #1a8cda;
+}
+
+.botonn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cuerpoform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

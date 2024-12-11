@@ -1,0 +1,179 @@
+#headerperscar .headerperscar{
+    background-color: #252525;
+    color: #fff;
+    box-shadow: 0.5px 0.5px 5px 5px rgba(0, 0, 0, 0.3);
+    position: inherit;
+}
+
+#Carritopersbody{
+    padding: 110px 0 110px 0;
+    background: 
+    linear-gradient(217deg, rgb(71, 190, 219), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(82, 118, 184, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(5, 0, 75, 0.8), rgba(0,0,255,0) 70.71%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logop{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+}
+
+#Carritopersbody .carritocont{
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    color: #fff;
+    flex-direction: column;
+}
+
+#Carritopersbody .pequeñocontenedor{
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 45vh;
+    width: 95vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 35px;
+    box-shadow: -0.5px -0.5px 4px 4px rgba(194, 194, 194, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Carritopersbody .titulocompra{
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+#Carritopersbody .labelcar{
+    font-size: 1.5vh;
+}
+
+#Carritopersbody .fieldscar{
+    height: 1vh;
+    border: none;
+    border-bottom: 1px solid #b3b3b3;
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 10px;
+}
+
+#Carritopersbody .fieldscar:hover{
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+#Carritopersbody .imgdetalle{
+    width: 45vh;
+    height: 30vh;
+    border-radius: 20px;
+}
+
+#Carritopersbody .titulocompra{
+    color: #fff;
+}
+
+#Carritopersbody .divtot{
+    margin:15px;
+    display:flex; 
+    flex-direction: row;
+}
+
+#Carritopersbody .btnagrcar{
+    margin-left: 15vh;
+}
+
+#totalpago{
+    margin-left: 5px;
+}
+
+#Carritopersbody .contboton{
+    width: 100%;
+}
+
+#Carritopersbody .btnagrcar{
+    margin-left: 30vh;
+    background-color: #06b600;
+    border: none;
+}
+
+.detalles{
+    min-width: 150px;
+    min-height: 250px;
+}
+
+/* Estilos para pantallas pequeñas (iPhone SE) */
+@media (max-width: 375px) {
+    /* Ajustar el contenedor principal */
+    #Carritopersbody .carritocont {
+        height: auto; /* Permitir que el contenedor crezca según el contenido */
+        width: 90vw; /* Ajustar al ancho completo de la pantalla */
+        padding: 10px; /* Agregar algo de relleno para los bordes */
+    }
+
+    /* Ajustar el contenedor pequeño */
+    #Carritopersbody .pequeñocontenedor {
+        height: auto; /* Permitir que el contenedor crezca según el contenido */
+        width: 80vw; /* Ajustar al ancho completo de la pantalla */
+        padding: 15px; /* Reducir el relleno para que quepa en la pantalla */
+        box-shadow: 0 2px 4px rgba(194, 194, 194, 0.5); /* Ajustar sombra */
+        flex-direction: column; /* Cambiar la dirección a columna */
+        align-items: flex-start; /* Alinear a la izquierda */
+    }
+
+    /* Ajustar el tamaño del título */
+    #Carritopersbody .titulocompra {
+        font-size: 2rem; /* Usar rem en lugar de vh para mayor consistencia */
+        text-align: center; /* Centrar el texto */
+    }
+
+    /* Ajustar el tamaño de las etiquetas */
+    #Carritopersbody .labelcar {
+        font-size: 1rem; /* Usar rem en lugar de vh */
+    }
+
+    /* Ajustar el tamaño y el ancho de los campos de texto */
+    #Carritopersbody .fieldscar {
+        text-align: center;
+        padding: 8px; /* Reducir el relleno para mejor ajuste */
+    }
+
+    /* Ajustar la imagen */
+    #Carritopersbody .imgdetalle {
+        width: 100%; /* Ajustar al ancho completo del contenedor */
+        height: auto; /* Mantener la proporción de la imagen */
+        border-radius: 10px; /* Ajustar el radio del borde */
+        margin-bottom: 10px; /* Reducir margen inferior */
+    }
+
+    /* Ajustar el contenedor del total */
+    #Carritopersbody .divtot {
+        margin: 10px 0; /* Reducir margen */
+        flex-direction: column; /* Cambiar a columna para pantallas pequeñas */
+    }
+
+    /* Ajustar el botón */
+    #Carritopersbody .btnagrcar {
+        width: 100%; /* Ajustar al ancho completo del contenedor */
+        margin: 10px 0; /* Reducir margen */
+        padding: 10px; /* Agregar relleno para el botón */
+        font-size: 1rem; /* Usar rem en lugar de vh */
+    }
+
+    /* Ajustar el espacio para el total */
+    #totalpago {
+        margin-left: 0; /* Eliminar margen izquierdo */
+    }
+}

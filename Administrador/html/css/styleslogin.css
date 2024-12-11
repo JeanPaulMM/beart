@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    background: rgb(181,83,255);
+    background: radial-gradient(circle, rgb(128, 183, 255) 0%, rgb(0, 68, 146) 100%);
+}
+
+form label{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contenedorlog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadrolog{
+    background-color: white;
+    padding: 20px;
+    height: 50vh;
+    width: 40vh;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -0.5px -0.5px 4px 4px rgba(255, 255, 255, 0.3);
+}
+
+.recuadrolog .field{
+    border-radius: 15px;
+    border: 1px solid #c5c5c5;
+    margin-bottom: 10px;
+    padding: 15px;
+    height: 5vh;
+    width: 250px;
+}
+
+.btnlog{
+    border-radius: 15px;
+    background-color: #23a7ff;
+    color: #fff;
+    width: 90%;
+    height: 3.5vh;
+    border: none;
+}
+
+.botonn{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.cuerpoform{
+display: flex;
+justify-content: center;
+align-items: center;
+}
